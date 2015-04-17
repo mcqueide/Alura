@@ -4,7 +4,7 @@ public class GerenciadorDeImpostoDeRenda {
 
 	private double total;
 
-    void adiciona(Tributavel t) {
+    public void adiciona(Tributavel t) {
         System.out.println("Adicionando tributavel: " + t);
 
         this.total +=  t.calculaTributos();

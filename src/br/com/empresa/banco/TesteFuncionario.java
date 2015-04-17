@@ -1,4 +1,5 @@
 package br.com.empresa.banco;
+import br.com.empresa.banco.conta.*;
 public class TesteFuncionario {
 
 	public static void main(String[] args) {
